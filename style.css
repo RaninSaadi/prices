@@ -1,0 +1,155 @@
+/* body style */
+body {
+    font-family: 'Tajawal', sans-serif
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+    /* main page container style */
+    .container-fluid{
+        text-align:center;
+        background-color:#f4f4f4;
+        padding:20px;
+        border-radius:8px;
+        box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    /* font style for all head data */
+    .headFonts{
+        font-family:'Tajwal', sans-serif;
+        font-weight:bolder;
+        font-size:48px;
+        transform:scaleX(1);
+    }
+    /* font style for all head data */
+    .head2Fonts{
+        font-family:"Tajwal", sans-serif;
+        font-weight:bolder;
+        font-size:45px;
+        transform:scaleX(1);
+    }
+    /* font style for all data inside table */
+    .dataFont{
+        font-weight:bolder;
+        font-size:45px;
+        font-family:'Tajwal', sans-serif;
+    }
+    /* font style for all data inside table */
+    .data2Fonts{
+        font-weight:bolder;
+        font-size:
+        font-family:'Tajwal', sans-serif;
+    }
+    /* font style for all data inside table */
+    .barFont{
+        font-weight:bolder;
+        font-size:40px;
+        font-family:'Tajwal', sans-serif;
+    }
+    /* gold color */
+    .gold{
+        color:#f0a500;
+        font-weight:bolder;
+    }
+    /* silver color */
+    .silver{
+        color:rgb(128,128,128);
+        font-weight:bolder;
+    }
+    /* time */
+    .time{
+        font-size:30px;
+        font-weight:bolder;
+    }
+    .table-dark .sil{
+        padding:8px;
+        animation-name:changeColor1;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+
+    }
+    @keyframes changeColor1{
+        0%{
+            background-color:black;
+        }
+        100%{
+            background-color: silver;
+        }
+    }
+    .table-dark .gol{
+        padding:8px;
+        animation-name:changeColor2;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+
+    }
+    @keyframes changeColor2{
+        0%{
+            background-color: black;
+        }
+        100%{
+            background-color: gold;
+        }
+    }
+    #goldTable tbody th{
+        position:relative;
+        animation-name:changeColor3;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+    }
+    @keyframes changeColor3{
+        0%{
+            background-color: f4f4f4;
+        }
+        100%{
+            background-color:gold;
+        }
+    }
+    #goldTable th span{
+        position:absolute;
+        animation-name:moving;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+    }
+    #silverTable th{
+        position:relative;
+    }
+    #silverTable th span{
+        position:absolute;
+        animation-name:moving;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+    }
+    @keyframes moving{
+        0%{
+            left:0;
+        }
+        100%{
+          left:8%;
+        }
+    }
+    .table-dark th{
+        padding:16px;
+    }
+    #goldTable td{
+        background-color:#f4f4f4;
+    }
+    #silverTable tbody th{
+        animation-name:changeColor4;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+    }
+    @keyframes changeColor4{
+        0%{
+            background-color: #f4f4f4;
+        }
+        100%{
+            background-color: silver;
+        }
+
+    }
+    #silverTable td{
+        background-color: #f4f4f4;
+    }
+
+
+  
